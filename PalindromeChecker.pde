@@ -46,7 +46,7 @@ public boolean palindrome(String word)
   {
     mui = mui + word.substring(i, i + 1);
   }
-  if (mui.equals(word))
+  if (mui.equalsIgnoreCase(word))
   {
     return true;
   }
